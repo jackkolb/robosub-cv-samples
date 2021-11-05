@@ -37,3 +37,5 @@ I used the process:
 
 Resulting in the following:
 ![](buoy_demo.png?raw=true)
+
+Naturally the real-world images will be look a bit different than these screenshots: dark water background, less image contrast, etc. I would still use the simple approach for the gate, however for the buoy I would pre-process the image: filter in only the light contours (since the images have a white background, this would require some dilation/erosion/contours), turn everything outside those regions white (so the buoys are the raw images but the water space around them is all white), and then locate the badge's circle.
