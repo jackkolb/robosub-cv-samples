@@ -16,7 +16,7 @@ I used the process:
 4. Find contours (cv2.findContours)
 
 Resulting in the following:
-![](gate_demo.png?raw=true)
+![](gate_demo1.png?raw=true)
 
 
 ## Buoy Task
